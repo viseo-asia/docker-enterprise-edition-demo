@@ -19,4 +19,6 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 - [Install Docker Trusted Registry](install_dtr.md)
 - [Install Centralized Logging](install_centralized_logging.md)
 - [Install Continuous Integration](install_continuous_integration.md)
+- [Install Application Monitoring](install_monitoring.md)
+- [Install Application Secrets](install_secrets.md)
 - [Install Demo Web App](install_demo_web_app.md)
