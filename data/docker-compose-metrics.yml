@@ -13,10 +13,10 @@ services:
       - demo_webnet
     volumes:
       - /vagrant/data/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-    logging:
-      driver: syslog
-      options:
-        syslog-address: "tcp://127.0.0.1:601"
+    # logging:
+    #   driver: syslog
+    #   options:
+    #     syslog-address: "tcp://127.0.0.1:601"
 
 networks:
   demo_webnet:
