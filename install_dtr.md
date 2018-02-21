@@ -10,10 +10,11 @@ So we'll change the UCP UI to use port 444 and allow the DTR to use port 443.
 2. Click *Save*
 3. Open [https://192.168.88.10:444/login/](https://192.168.88.10:444/login/)
 4. Open [https://192.168.88.10:444/manage/settings/dtr](https://192.168.88.10:444/manage/settings/dtr)
-  - Select the *UCP NODE* (ubuntu xenial)
+  - Select the *UCP NODE* *ubuntu xenial*
   - Check *Disable TLS verification for UCP*
   - Copy to Clipboard
   - Execute
+  - Use the admin passowrd *password* (local default we're using)
 
 Example:
 
@@ -38,11 +39,13 @@ In the DTR admin UI:
 1. Click *Organizations* > *New Organization* > *Organization Name* > **viseo** > *Save*
 2. Click *Organizations* > *viseo* >  *Add user* > *New* > Username **jenkins** > Password **password** > *Save*
 3. Click *Organizations* > *viseo* > *Repositories* > *Add repository* > *Repository Name* > **jenkins-docker** > *Save*
-4. Click *Organizations* > *viseo* > *Repositories* > *Add repository* > *Repository Name* > **demo-web-app** > *Save*
+4. Click *Organizations* > *viseo* > *Repositories* > *Add repository* > *Repository Name* > **civic-app** > *Save*
+5. Click *Organizations* > *viseo* > *Repositories* > *Add repository* > *Repository Name* > **demo-web-app** > *Save*
 6. Click *Organizations* > *viseo* > *Teams +* > *Team Name* > **dev** > *Save*
 7. Click *Organizations* > *viseo* > *Teams* > *dev* > *Add User* > *Existing* > **jenkins**
 8. Click *Organizations* > *viseo* > *Teams* > *dev* > *Repositories* > *Existing* > **jenkins-docker** (read/write) > *Save*
-9. Click *Organizations* > *viseo* > *Teams* > *dev* > *Repositories* > *Existing* > **demo-web-app** (read/write) > *Save*
+9. Click *Organizations* > *viseo* > *Teams* > *dev* > *Repositories* > *Existing* > **civic-app** (read/write) > *Save*
+10. Click *Organizations* > *viseo* > *Teams* > *dev* > *Repositories* > *Existing* > **demo-web-app** (read/write) > *Save*
 
 ## Local DNS resolution
 

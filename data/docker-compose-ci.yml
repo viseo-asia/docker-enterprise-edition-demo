@@ -1,43 +1,55 @@
-version: "3"
+version: "3.1"
 services:
 
   jenkins:
-    # image: jenkins
-    # image: jenkins-docker
-    # image: 192.168.88.10:5000/jenkins-docker:1.0.0
     image: local.dtr/viseo/jenkins-docker
     deploy:
       replicas: 1
       restart_policy:
         condition: on-failure
+    secrets:
+      - civic_app_id.json
+      - civic_app_secret.json
+      - civic_private_key.json
     ports:
       - "8080:8080"
       - "50000:50000"
     networks:
       - cinet
+    extra_hosts:
+      - "local.dtr:192.168.88.10"
     volumes:
       - /vagrant/data/jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
+
     # logging:
     #   driver: syslog
     #   options:
     #     syslog-address: "tcp://127.0.0.1:601"
 
-  sonarqube:
-    image: sonarqube:lts-alpine
-    deploy:
-      replicas: 1
-      restart_policy:
-        condition: on-failure
-    ports:
-      - "9000:9000"
-      - "9092:9092"
-    networks: 
-      - cinet
+  # sonarqube:
+  #   image: sonarqube:lts-alpine
+  #   deploy:
+  #     replicas: 1
+  #     restart_policy:
+  #       condition: on-failure
+  #   ports:
+  #     - "9000:9000"
+  #     - "9092:9092"
+  #   networks: 
+  #     - cinet
   #   logging:
   #     driver: syslog
   #     options:
   #       syslog-address: "tcp://127.0.0.1:601"
+
+secrets:
+  civic_app_id.json:
+    external: true
+  civic_app_secret.json:
+    external: true
+  civic_private_key.json:
+    external: true
 
 networks:
   cinet:

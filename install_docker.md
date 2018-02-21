@@ -3,7 +3,8 @@
 1. `vagrant up`
 2. `vagrant ssh`
 3. If this is a new VM update, upgrade and reboot:
-  - `sudo apt-get update && sudo apt-get dist-upgrade -yy && exit`
+  - `sudo apt-get update && sudo apt-get dist-upgrade -yy`
+  - `sudo apt-get install ntpdate && sudo ntpdate pool.ntp.org && exit`
   - `vagrant reload`
   - `vagrant ssh`
 3. Export your Docker EE URL, example:
@@ -13,6 +14,7 @@
   - `exit`
   - `vagrant reload`
   - `vagrant ssh`
+  - Confirm all is good run: `docker version`
 7. Install Docker UCP (note the version, this will require upgrading over time)
 
 *Note*: The install will prompt you for an Admin name and Admin Password.
@@ -29,4 +31,4 @@ docker container run --rm -it --name ucp \
   --interactive
 ```
 
-5. Login to UCP at [https://192.168.88.10:443](https://192.168.88.10:443)
+5. Login to UCP at [https://192.168.88.10](https://192.168.88.10) with user/pass **admin/password**

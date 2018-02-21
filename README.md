@@ -22,4 +22,5 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 - [Install Continuous Integration Jobs](install_continuous_integration_jobs.md)
 - [Install Application Monitoring](install_monitoring.md)
 - [Install Application Secrets](install_secrets.md)
+- [Install Civic Web App](install_civic_web_app.md)
 - [Install Demo Web App](install_demo_web_app.md)
