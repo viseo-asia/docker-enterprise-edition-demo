@@ -17,6 +17,7 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 
 - [Install Docker Enterprise Edition](install_docker.md)
 - [Install Docker Trusted Registry](install_dtr.md)
+- [Install Docker HTTP routing mesh](install_ucp_hrm.md)
 - [Install Centralized Logging](install_centralized_logging.md)
 - [Install Continuous Integration Server](install_continuous_integration_server.md)
 - [Install Continuous Integration Jobs](install_continuous_integration_jobs.md)
