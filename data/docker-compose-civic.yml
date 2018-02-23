@@ -32,7 +32,7 @@ services:
     networks:
       - ucp-hrm
       - webnet
-      # - tick_monitoring_net
+      - tick_monitoring_net
       # - logging_scalyr
     # logging:
       # driver: syslog
@@ -56,9 +56,9 @@ networks:
   ucp-hrm:
     external:
       name: ucp-hrm 
-  # tick_monitoring_net:
-    # external:
-      # name: tick_monitoring_net
+  tick_monitoring_net:
+    external:
+      name: tick_monitoring_net
   # logging_scalyr:
     # external:
       # name: logging_scalyr
