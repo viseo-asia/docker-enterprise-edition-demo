@@ -1,10 +1,38 @@
-#  Docker Enterprise Edition Demo
+#  Docker Enterprise Edition Demonstration and DevOps Showcase
 
-This installation guide last updated at: **2017-12-12**
+This installation guide last updated at: **2018-02-23**
 
 Ubuntu Version: **16.04**
 
 Docker Enterprise Edition Version: **17.06.2-ee-6**
+
+## Overview
+
+![Viseo Digital Makers](images/viseo-digital-makers.png)
+![Docker](images/docker-horizontal.png)
+
+This demo and showcase consists of:
+
+- Platform
+  - Ubuntu Linux
+  - Docker Enterprise Edition
+    - Applications
+      1. Jenkins Continuous Integration Server
+      2. Metrics and Events - TICK Stack
+        - InfluxDB
+        - Telegraf
+        - Chronograf
+        - Kapacitor
+      3. Demo Web App
+        - ExpressJS app (Nodejs)
+      4. Blockchain Decentralized ID (DID) Authentication Demo
+        - KoaJS app (Nodejs)
+      5. Centralized logging
+        - Cloud service Scalyr.com
+- Compliance as Code
+  - Inspec framework for testing and auditing:
+    1. Applications
+    2. Infrastructure
 
 ## Prerequisites
 
@@ -25,3 +53,13 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 - [Install Application Secrets](install_secrets.md)
 - [Install Civic Web App](install_civic_web_app.md)
 - [Install Demo Web App](install_demo_web_app.md)
+
+## Appendix
+
+1. Tick Stack Complete
+
+![TICK Stack Complete](images/Tick-Stack-Complete.png)
+
+2. Scalyr.com
+
+![Scalyr.com](images/scalyr.png)
