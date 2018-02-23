@@ -14,23 +14,23 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 This demo and showcase consists of:
 
 - Platform
-  - Ubuntu Linux
-  - Docker Enterprise Edition
+  - **Ubuntu Linux**
+  - **Docker Enterprise Edition**
     - Applications
-      1. Jenkins Continuous Integration Server
-      2. Metrics and Events - TICK Stack
+      1. **Jenkins Continuous Integration Server**
+      2. **Metrics and Events - TICK Stack**
         - InfluxDB
         - Telegraf
         - Chronograf
         - Kapacitor
-      3. Demo Web App
+      3. **Demo Web App**
         - ExpressJS app (Nodejs)
-      4. Blockchain Decentralized ID (DID) Authentication Demo
+      4. **Blockchain Decentralized ID (DID) Authentication Demo**
         - KoaJS app (Nodejs)
-      5. Centralized logging
+      5. **Centralized logging**
         - Cloud service Scalyr.com
 - Compliance as Code
-  - Inspec framework for testing and auditing:
+  - **Inspec framework** for testing and auditing:
     1. Applications
     2. Infrastructure
 
