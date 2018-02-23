@@ -1,4 +1,4 @@
-#  Docker Enterprise Edition Demonstration and DevOps Showcase
+#  Docker Enterprise Edition Demo and DevOps Showcase
 
 This installation guide last updated at: **2018-02-23**
 
