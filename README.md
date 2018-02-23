@@ -54,6 +54,10 @@ This demo and showcase consists of:
 - [Install Civic Web App](install_civic_web_app.md)
 - [Install Demo Web App](install_demo_web_app.md)
 
+## Compliance and Auditing
+
+- [Install Inspec and execute tests](compliance/README.md)
+
 ## Appendix
 
 1. Tick Stack Complete
