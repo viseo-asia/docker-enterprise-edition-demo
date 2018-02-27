@@ -20,16 +20,17 @@ This demo and showcase consists of:
   - **Docker Enterprise Edition**
     - Applications
       1. **Jenkins Continuous Integration Server**
-      2. **Metrics and Events - TICK Stack**
+      2. **SonarQube Code Quality Server**
+      3. **Metrics and Events - TICK Stack**
         - InfluxDB
         - Telegraf
         - Chronograf
         - Kapacitor
-      3. **Demo Web App**
+      4. **Demo Web App**
         - ExpressJS app (Nodejs)
-      4. **Blockchain Decentralized ID (DID) Authentication Demo**
+      5. **Blockchain Decentralized ID (DID) Authentication Demo**
         - KoaJS app (Nodejs)
-      5. **Centralized logging**
+      6. **Centralized logging**
         - Cloud service Scalyr.com
 - Compliance as Code
   - **Inspec framework** for testing and auditing:
@@ -50,6 +51,7 @@ This demo and showcase consists of:
 - [Install Docker HTTP routing mesh](install_ucp_hrm.md)
 - [Install Centralized Logging](install_centralized_logging.md)
 - [Install Continuous Integration Server](install_continuous_integration_server.md)
+- [Install Continuous Code Quality Server](install_continuous_code_quality.md)
 - [Install Continuous Integration Jobs](install_continuous_integration_jobs.md)
 - [Install Application Monitoring](install_monitoring.md)
 - [Install Application Secrets](install_secrets.md)
