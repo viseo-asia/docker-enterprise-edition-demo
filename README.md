@@ -10,6 +10,8 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 
 ![Viseo Digital Makers](images/viseo-digital-makers.png)
 ![Docker](images/docker-horizontal.png)
+<br>
+<img width=400 src="images/devops-process-1024x527.png">
 
 This demo and showcase consists of:
 
