@@ -10,11 +10,26 @@
 8. `docker stack deploy --compose-file docker-compose-ci.yml ci`
 
 9. Open Jenkins admin: [http://192.168.88.10:8080](http://192.168.88.10:8080)
-10. Follow the setup instructions, open a console in the Jenkins container and get the initial admin password (you can use Docker EE web UI for this):
-11. `cat /var/jenkins_home/secrets/initialAdminPassword`
-12. Follow the Jenkins Install Wizard: Install Suggested Plugins
+10. Follow the setup instructions, open a console in the Jenkins container and get the initial admin password:
+11. `cat jenkins_home/secrets/initialAdminPassword`
+12. Follow the Jenkins Install Wizard: **Install Suggested Plugins**
 13. This will take a few minutes to install default suggested plugins
-14. Click *Continue as admin* - for this local env we won't create any other users for now
+
+Installing...
+
+![Jenkins Install](/images/install_jenkins-1.png)
+
+14. Click **Continue as admin** - for this local env we won't create any other users for now
+
+Continue as admin...
+
+![Jenkins Install](/images/install_jenkins-2.png)
+
+Click >> Start using Jenkins...
+
+![Jenkins Install](/images/install_jenkins-3.png)
+
+
 15. For this local env, we'll remove security (no login). Alternatively keep or reset the admin password.
 16. In the *jenkins_home/* dir edit *config.xml*
 17. Change *&lt;useSecurity&gt;true&lt;/useSecurity&gt;* to 

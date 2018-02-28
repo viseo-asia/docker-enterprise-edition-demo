@@ -18,6 +18,8 @@ One:
 
 Two:
 
+**Copy the token, we'll use it for Jenkins configuration**
+
 ![Sonarqube](images/sonarqube-2.png)
 
 Click continue, then skip tutorial, should be at an empty dashboard.
@@ -27,6 +29,8 @@ Click continue, then skip tutorial, should be at an empty dashboard.
 **Add a web-hook for Jenkins**
 
 Configure a webhook in your SonarQube server pointing to http://jenkins:8080/sonarqube-webhook/ (The trailing slash is mandatory)
+
+Click >> Administration >> Webhooks
 
 ![Sonar](images/sonarqube-config-3.png)
 
@@ -51,6 +55,10 @@ Explore it more at the Docs [https://docs.sonarqube.org/](https://docs.sonarqube
 **Configure the Sonarqube plugin**
 
 Jenkins > Manage Jenkins > Configure System >
+
+- Name: sonarqube
+- Server URL: http://sonarqube:9000
+- Server Authentication Token: <TOKEN_FROM_SONARQUBE_INSTALL_STEP>
 
 ![Sonar](images/sonarqube-config-1.png)
 
