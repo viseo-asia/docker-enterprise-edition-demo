@@ -34,10 +34,10 @@ services:
       - webnet
       - tick_monitoring_net
       # - logging_scalyr
-    # logging:
-      # driver: syslog
-      # options:
-        # syslog-address: "tcp://127.0.0.1:601"
+    logging:
+      driver: syslog
+      options:
+        syslog-address: "tcp://127.0.0.1:601"
     secrets:
       - civic_app_id.json
       - civic_app_secret.json
