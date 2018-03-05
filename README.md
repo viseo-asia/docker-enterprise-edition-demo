@@ -11,7 +11,13 @@ Docker Enterprise Edition Version: **17.06.2-ee-6**
 ![Viseo Digital Makers](images/viseo-digital-makers.png)
 ![Docker](images/docker-horizontal.png)
 <br>
-<img width=400 src="images/devops-process-1024x527.png">
+<!-- <img width=400 src="images/devops-process-1024x527.png"> -->
+<br>
+<!-- <img width=400 src="images/biz-dev-ops.png"> -->
+<br>
+<!-- <img width=600 src="images/dev-sec-ops.png"> -->
+<br>
+<!-- <img width=400 src="images/dev-sec-ops-2.png"> -->
 
 This demo and showcase consists of:
 
@@ -54,9 +60,17 @@ This demo and showcase consists of:
 - [Install Continuous Code Quality Server](install_continuous_code_quality.md)
 - [Install Continuous Integration Jobs](install_continuous_integration_jobs.md)
 - [Install Application Monitoring](install_monitoring.md)
-- [Install Application Secrets](install_secrets.md)
-- [Install Civic Web App](install_civic_web_app.md)
-- [Install Demo Web App](install_demo_web_app.md)
+
+## Applications
+
+There is a growing list of Viseo demo applications for use in Docker Enterprise Edition.
+
+Each application has setup and deployment instructions for local and prod.
+
+You can choose from any or all of these:
+
+- [Simple Web App](https://github.com/viseo-asia/demo-web-app)
+- [Authenticate with Civic on the Blockchain](https://github.com/viseo-asia/blockchain-civic-demo)
 
 ## Compliance and Auditing
 
