@@ -1,5 +1,6 @@
 ## Application Monitoring with the TICK stack
 
+- `cd /vagrant/data`
 - `docker stack deploy -c docker-compose-monitoring.yml tick`
 
 ## Testing
