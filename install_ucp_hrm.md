@@ -1,10 +1,12 @@
 ## Enable the HTTP routing mesh
 
-So we can use domain names, example: http://civic.local, enable UCP HRM: 
+So we can use domain names, example: http://civic.local, enable UCP HRM. 
+
+Open [https://192.168.88.10:444/manage/settings/hrm](https://192.168.88.10:444/manage/settings/hrm)
 
 ![UCP HRM](images/use-domain-names-3.png)
 
-## Update /etc/hosts
+## Update your workstation/laptop /etc/hosts
 
 Add the entry in /etc/hosts
 

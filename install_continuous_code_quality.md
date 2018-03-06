@@ -28,7 +28,7 @@ Click continue, then skip tutorial, should be at an empty dashboard.
 
 **Add a web-hook for Jenkins**
 
-Configure a webhook in your SonarQube server pointing to http://jenkins:8080/sonarqube-webhook/ (The trailing slash is mandatory)
+Configure a webhook in your SonarQube server pointing to `http://jenkins:8080/sonarqube-webhook/` (The trailing slash is mandatory)
 
 Click >> Administration >> Webhooks
 

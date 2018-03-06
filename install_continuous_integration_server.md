@@ -1,5 +1,7 @@
 ## Setup Continous Integration - Jenkins
 
+Build a custom Jenkins image that can use the host Docker engine to build images.
+
 1. `cd /vagrant/data/jenkins_docker/`
 2. `docker build -t viseo/jenkins-docker .`
 3. `docker tag viseo/jenkins-docker local.dtr/viseo/jenkins-docker`
